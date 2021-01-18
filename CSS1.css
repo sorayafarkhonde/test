@@ -1,0 +1,58 @@
+.grid-container
+{
+	display:grid;
+	grid-template-columns:auto auto  auto auto  auto  auto;
+	
+}
+.grid-item-header
+{
+	grid-column:1/7;
+	background-color:red;
+	height:60px;
+	text-align:center;
+	padding-top:15px;
+	font-family:tahoma;
+	font-size:14pt;
+	
+}
+.main
+{
+	height:400px;
+	grid-column:1/7;
+}
+.footer
+{
+	background-color:pink;
+	height:60px;
+	grid-column:1/7;
+}
+#left
+{
+	grid-column:1/5;
+	background-color:yellow;
+	height:400px;
+	text-align:center;
+	
+}
+#right
+{
+	background-color:#d1c96d;
+	height:400px;
+	grid-column:5/7;
+	
+}
+img
+{
+	width:300px;
+	heigt:300px;
+	margin-top: 40px;
+}
+img:hover
+{
+	opacity:1;
+	width:500px;
+	height:300px;
+	transform: rotatez(180deg);
+	transition: transform 5s;
+	transition-delay:1s;
+}
