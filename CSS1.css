@@ -7,13 +7,13 @@
 .grid-item-header
 {
 	grid-column:1/7;
-	background-color:red;
+	background-color:#f75c57;
+	color:#240211;
 	height:60px;
 	text-align:center;
 	padding-top:15px;
 	font-family:tahoma;
 	font-size:14pt;
-	
 }
 .main
 {
@@ -22,24 +22,24 @@
 }
 .footer
 {
-	background-color:pink;
+	background-color:#97ba63;
 	height:60px;
 	grid-column:1/7;
+	text-align:center;
 }
 #left
 {
 	grid-column:1/5;
-	background-color:yellow;
+	background-color:#b3b51f;
 	height:400px;
 	text-align:center;
-	
 }
 #right
 {
-	background-color:#d1c96d;
+	background-color:#d5d689;
 	height:400px;
 	grid-column:5/7;
-	
+	text-align:center;
 }
 img
 {
